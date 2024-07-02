@@ -1,0 +1,44 @@
+.main-container {
+ height: 100vh;
+ width: 100vw;
+ background-color: #ece9e2;
+ color: #db6679;
+ padding-top: 100px;
+
+ .inner-main-container {
+  background-color: #ece9e2;
+
+  .product-title-info-container {
+   margin: 0 auto;
+   width: 40%;
+
+   h1 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+   }
+
+   h2 {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+   }
+
+   h3 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+   }
+  }
+
+  .variants-section {
+   img {
+    height: 100px;
+   }
+  }
+
+ }
+
+
+
+}
