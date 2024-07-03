@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       {products?.map((product) => (
         <div key={product.id}>
-          <p onClick={() => handleProductClick(product)}>{product.name}</p>
+          <p className='products' onClick={() => handleProductClick(product)}>{product.name}</p>
         </div>
       ))}
     </div>
